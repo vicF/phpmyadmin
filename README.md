@@ -1,0 +1,2 @@
+# phpmyadmin
+Docker PhpMyAdmin installation
