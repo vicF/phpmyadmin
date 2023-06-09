@@ -1,0 +1,24 @@
+<?php
+
+$cfg['ShowPhpInfo'] = true; // Adds a link to phpinfo() on the home page
+
+
+$i++;
+$cfg['Servers'][$i]['verbose'] = 'server1';
+$cfg['Servers'][$i]['host'] = 'server1.com';
+$cfg['Servers'][$i]['port'] = '';
+$cfg['Servers'][$i]['socket'] = '';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
+
+$i++;
+$cfg['Servers'][$i]['verbose'] = 'server-mysql';
+$cfg['Servers'][$i]['host'] = 'host.docker.internal';
+$cfg['Servers'][$i]['port'] = '';
+$cfg['Servers'][$i]['socket'] = '';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
